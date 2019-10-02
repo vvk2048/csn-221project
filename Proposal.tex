@@ -1,0 +1,102 @@
+% Sample file for KONA
+% For ASCII pLaTeX2e
+% This file requires article.cls
+% 2017.01.13 by Nakanishi Printing Co., Ltd
+% 2017.06.26 modified by Hao Shi, MSM, University of Twente, the Netherlands
+% 2019.01.10 modified by Nakanishi Printing Co., Ltd
+
+\documentclass[twocolumn, 10pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage[format=hang,labelfont=bf,textfont=small,singlelinecheck=false,justification=raggedright,margin={12pt,12pt},figurename=Fig.]{caption}
+\usepackage{titlesec}
+\usepackage{textcomp}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\def\affiliation#1{\gdef\@affiliation{#1}}
+\def\abstract#1{\gdef\@abstract{#1}}
+\def\graphabst#1{\gdef\@graphabst{#1}}
+\def\keywords#1{\gdef\@keywords{#1}}
+\def\corresp#1{\gdef\@corresp{#1}}
+\def\bioauthor#1#2{\centerline{\textbf{#1}}\par #2}
+\newcommand{\MakeTitle}{
+  \newpage
+  \null
+  \vskip 2em%
+  \begin{center}%
+  \Large \@title\par
+  \vskip 1em%
+  \large \@author
+  \end{center}
+  \noindent\@affiliation\par
+  \vskip 1em%
+  \noindent\@corresp\par
+  \vskip 1em%
+  \noindent\@abstract\par
+  \noindent\@graphabst\par
+  \vskip 1em%
+  \noindent\@keywords\par
+}
+\makeatother
+
+\setlength{\columnsep}{0.8cm}
+
+\newcommand*{\TitleFont}{%
+      \usefont{\encodingdefault}{\rmdefault}{}{n}%
+      \fontsize{18}{12}%
+      \selectfont}
+
+\titleformat{\section}
+  {\normalfont\fontsize{10}{11}\bfseries}{\thesection.}{2pt}{}
+  \titlespacing*{\section}{0pt}{12pt}{6pt}
+
+
+\titleformat{\subsection}
+  {\normalfont\fontsize{10}{10}\bfseries}{\thesubsection.}{2pt}{}
+  \titlespacing*{\subsection}{0pt}{6pt}{0pt}
+  
+\titleformat{\subsubsection}
+  {\normalfont\fontsize{10}{10}\bfseries}{\thesubsubsection.}{2pt}{}
+  \titlespacing*{\subsubsection}{0pt}{6pt}{0pt}
+  
+\renewcommand{\baselinestretch}{1.10}\normalsize
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{\TitleFont History of Cache Evolution and Future Trends }
+\author{Aniket Kumar$^{\, ECE}$, Gurram Mahidhar$^{\, CSE}$,Ishaan Yadav$^{\, CSE}$,K.Vivek Veman$^{\, CSE}$,Rohit Kumar$^{\, ECE}$,Sourabh Singh$^{\, ECE}$,Vishal Babbal$^{\, ECE}$}
+
+\abstract{\textbf{Abstract}: \\
+During the the early days of microcomputer technology, memory access was only slightly slower than register access. But since the 1980s the performance gap between processor and memory has been growing. Over time Microprocessors have advanced much faster than memory, especially in terms of their operating frequency, so memory became a performance bottleneck. While it was technically possible to have all the main memory as SRAM which could be as fast as the CPU,but a more economically viable path use taken: use plenty of low-speed memory, but also introduce a small high-speed cache memory to close the performance gap.\\
+As CPUs become faster compared to main memory, stalls due to cache misses displace more potential computation; modern CPUs can execute hundreds of instructions in the time taken to fetch a single cache line from main memory.\\
+Cache performance has become important in recent times where the speed gap between the memory performance and the processor performance is increasing exponentially. The cache was introduced to reduce this speed gap. Thus knowing how well the cache is able to bridge the gap in the speed of processor and memory becomes important, especially in high-performance systems. The cache hit rate and the cache miss rate play an important role in determining this performance. It is also important to see how these developments were made and what factors influence the design of caches in current computers.\\
+Early cache designs focused entirely on the direct cost of using various cache designs on execution speed and efficiency in reducing the gap between processor and RAM . More recent cache designs also consider energy efficiency, fault tolerance, and goals.\\
+We plan to attempt a thorough study of various trends and developments made since early days of introduction of cache memory to what we have today and what we might expect in the future based on current research and areas where room for improvement is present. }
+
+\graphabst{
+\begin{center}
+%%%%\includegraphics[scale=0.65,angle=0]{Graphical_Abstract/KONA_graphical_abstract_v4.pdf}
+\end{center}
+}
+\keywords{\textbf{Keywords:} Cache Performance, Cache Design,Cache enhancements,Cache optimizations,Cache Hierarchy.}
+
+
+\begin{document}
+
+\onecolumn
+\MakeTitle
+
+\twocolumn
+
+
+%%%%%%%%%%%%%%%%
+\end{document}
+
+
+
+
