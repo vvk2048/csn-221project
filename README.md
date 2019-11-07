@@ -1,5 +1,6 @@
 # csn-221project
-A Study on History Of Cache Evolution and Future Trends Done By:-
+<h2>A Study on History Of Cache Evolution and Future Trends Done By:-
+</h2>
 <ol>
   <li> <b>Aniket Kumar-18116009 </li></b>
 <li> <b>Ishaan Yadav-18114032 </li></b>
