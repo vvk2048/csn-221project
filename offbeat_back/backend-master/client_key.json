@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carbon-ruler-269814",
+  "private_key_id": "bc06b96ed70fd73c8da68563a8f002041166c275",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCF95X1vap5n5z\nzsgwBOetdQrriMej+YohkWmYi9E+F0qcVj8Ji17QaWguxrwgtrOt3DpA71oXz//9\nCc+5zGi/Ic1Wqbsx1NXjA9iW7NkwazPxqoa0B47TbUKoOdUwnSL2zuuR49Hbl9ya\nK6qMZac3XfEDG3uq/h7wGeRnqanF9DkjPaaljWDagOiXLwdy1jO5gEpZJ6U0iz61\nSrga8zQF8Pm6UqYZ/HHbUlRE9EqLaAYcwnB9vp+U5n/rhBaDdqBmo4jJsGo5Tc0i\nRVZQjiBDMySsHtUbMcspzYChPVe7u9nzBPhQn6bl1ioFOnByfy6pqZmhlVsMIIBx\n4tqipzuNAgMBAAECggEAAiEOu8IcVWugHlHvIRRjXI7WC787HhRzcbVS5iJogp4b\nn9XpXfKFBn5q2b0tMfhXGxSOoLOPdoc+Ag8CE+zHBwu49oGo+khg//BvnI46FAgl\nBc+5UmRqf8K+fQfEtoJkGwwqNODoe9hxX3vppHMhWl/h2tx0Zuvf4oHiNHSTFnG3\ntx7qIjzzvZ52g+JlaRbymXcTsAsGy/ghCdCzUPMQkVV/gIz665+AO9AMiLHJarxi\ned1ubGBCHzNzZgnMMbiDdFRCGtkHYhGHl3XSIZrAohHzVcLjJCxiN4xQwTt8WBT2\nq/t4nBKb7PPauTPRRcKZPuVvRl5bdrBICkPNoLi2YQKBgQD+9hYH+4XjTK29DWzO\nPiOTztVQ1Ip8jL24H3rrKZ0/CqxAecS44KlOBMoIYdxIbBB8hnzTl3mTHgBY1I/G\nuvRgiGW2+fVBcbomzBJiUuiXo8Uft94DswSeevaedbAkH6KEm6V1p8xDVnmvKIMe\nSoPCJc3a6A25XKhpoDBopnAu7QKBgQDC4ky2BdcwMpA08JyUm5HTnFMGac0UmN+Y\nO0eMfwN00yAaxi8ZE09zumtUYFLfP0DKdIGC+TJTMVio8r2/NB9uXUpWAJYxJIw0\nLvEDkRSFGGlk7zBS+REr4FqtgswdEBrYbo6hTCJpgKlsCNPCACVSZ06Nn9+0irvu\nn6mj+kELIQKBgQD4WgFv2SO8G08JXnBkHcdODSVgzQfw9q8/EPsM4sZXSDAtxe9I\nHx8L7kJWE+0dZpZQljg1a9Fy6sBvxu4eKLIu7e4WZDjwfLVVYWdu+0+xlkdH9DSA\n6fpP3XspM35WUbJe9bYge0jPNwblBdNiyDa8AVMaLvxfWNB7wxwkdCvGqQKBgQCX\ndbVUyhlB9iopWs72mCmvopDMLTIbzewIrhmfUZ9oDiWnaVt1S5K2SK3dt7bwloJO\nVlnJZs775SAYvf9GOMYsyghZ6r7Plq34aHsb4IdoIV7X+SU/dx8nUIhozXzBIaEb\nkGD9buRXxozlz75zyhU3g96DJzt/X0tL237GWFpwwQKBgGQ+GE1PEAK10uLKHIcg\n7kHZhj2nO2BfAUi49jLJPzp23pmllGUNs6Kqiok2x8Dh68r6PCs8S0GO1tO/iaJx\nBbFcFKTdFnsbD63fOGSfiVid/M+HhJivbTrXwPFK5xlMT5e58agP3ysxI9L2qiEe\nKUnMufbSIEpqj4Rz7dF7rH3K\n-----END PRIVATE KEY-----\n",
+  "client_email": "kanish-garg@carbon-ruler-269814.iam.gserviceaccount.com",
+  "client_id": "114801913793826731330",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kanish-garg%40carbon-ruler-269814.iam.gserviceaccount.com"
+}
